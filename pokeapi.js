@@ -28,7 +28,6 @@ const getPokemonData = async (id) => {
 fetchPokemon();
 
 const createCardData = (pokemonData) => {
-  console.log(pokemonData);
   const pokemonName = pokemonData.name;
   const ability = pokemonData.abilities[0].ability.name;
   const weight = pokemonData.weight;
