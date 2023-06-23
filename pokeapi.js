@@ -1,6 +1,6 @@
 document.body.innerHTML = `
 <div class="Container bg-warning p-2">
-<div class="heading ">
+<div class="heading">
 <h1 class="text-center text-dark p-4">Pokemon List</h1>
 </div>
 <div class="row mainContent">
@@ -37,12 +37,12 @@ const createCardData = (pokemonData) => {
   const mainContent = document.querySelector(".mainContent");
   mainContent.innerHTML += `
     <div class="col-sm-12 col-md-4 col-lg-3 mb-3 mb-sm-3">
-    <div class="card mb-3 bg-danger text-white h-100">
-    <div class="card-header">
+    <div class="card mb-3 text-white h-100">
+    <div class="card-header bg-dark">
     <img src="${pokeImg}" alt="${pokemonName}">
      <h4 class="card-title item1">Name: ${pokemonName}</h4>
     </div>
-    <div class="card-body">
+    <div class="card-body bg-info text-dark">
         <h5 class="card-title item2">Weight: ${weight}</h5>
         <h5 class="card-title item3">Ability: ${ability}</h5>
         <h5 class="card-title item4">Moves: ${moves}</h5>
