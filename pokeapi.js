@@ -36,7 +36,7 @@ const createCardData = (pokemonData) => {
   const moves = pokemonData.moves[0].move.name;
   const mainContent = document.querySelector(".mainContent");
   mainContent.innerHTML += `
-    <div class="col-sm-12 col-md-6 col-lg-4 mb-3 mb-sm-3">
+    <div class="col-sm-12 col-md-4 col-lg-3 mb-3 mb-sm-3">
     <div class="card mb-3 bg-danger text-white h-100">
     <div class="card-header">
     <img src="${pokeImg}" alt="${pokemonName}">
